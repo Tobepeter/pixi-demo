@@ -1,0 +1,46 @@
+{
+  "name": "pixi-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^25.0.0",
+    "@types/stats.js": "^0.17.3",
+    "antd": "^5.22.3",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "mockjs": "^1.1.0",
+    "pixi.js": "^7.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "stats.js": "^0.17.0",
+    "tweakpane": "^4.0.5",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@tweakpane/core": "^2.0.5",
+    "@types/mockjs": "^1.0.10",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "dirname-filename-esm": "^1.1.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  }
+}
