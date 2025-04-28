@@ -3,6 +3,7 @@ import { debugTexture } from '../util/debug/DebugTexture'
 import { ITest } from '../util/ITest'
 import { Random } from 'mockjs'
 import { debugVisual } from '../util/debug/DebugVisual'
+import { goUtil } from '../util/GOUtil'
 
 class MemTest implements ITest {
   count = 100

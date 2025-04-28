@@ -1,4 +1,5 @@
 import { Graphics } from 'pixi.js'
+import { goUtil } from '../util/GOUtil'
 import { ITest } from '../util/ITest'
 
 /**

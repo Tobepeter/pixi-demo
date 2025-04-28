@@ -1,4 +1,6 @@
-import { Container, IPoint, Point, Sprite } from 'pixi.js'
+import delay from 'delay'
+import nextFrame from 'next-frame'
+import { Container, Point, Sprite } from 'pixi.js'
 import { ITest } from '../util/ITest'
 import { debugTexture } from '../util/debug/DebugTexture'
 
@@ -40,7 +42,7 @@ class CacheTest implements ITest {
     win.sp = sp
     win.cacheTest = this
 
-    await sleep(100)
+    await delay(100)
 
     const mask = new Sprite()
     mask.texture = debugTexture.getCircleTexture()
@@ -124,7 +126,7 @@ class CacheTest implements ITest {
       sp.cacheAsBitmap = true
     }
 
-    await sleep(1000)
+    await delay(1000)
     if (UseWrapper) {
       wrapper.position.x = 0
     } else {
@@ -164,13 +166,13 @@ class CacheTest implements ITest {
       sp.cacheAsBitmap = true
     }
 
-    await sleep(100)
+    await delay(100)
 
     sp.cacheAsBitmap = false
     sp.texture = debugTexture.colorTextureMap.green
     sp.cacheAsBitmap = true
 
-    await sleep(200)
+    await delay(200)
     sp.visible = true
   }
 
