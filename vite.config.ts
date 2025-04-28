@@ -9,7 +9,6 @@ export default defineConfig(({ command, mode }) => {
   // NOTE: github 会额外增加path前缀，需要构建额外一个 baseurl
   // TODO: 注入后不能支持 dist 预览了
   const base = env.VITE_BASE_URL || '/'
-  const port = env.VITE_PORT || 5178
   return {
     base,
     plugins: [react(), tailwindcss()],
