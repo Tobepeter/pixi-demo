@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 *.tsbuildinfo
-
+env.local
 temp/
 tmp/
